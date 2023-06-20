@@ -1,6 +1,6 @@
 table  , td{
-    margin-left: 40%;
-    border: 1px double black; ;
+    margin: auto;
+    border: 2px dotted black; ;
 }
 img{
     padding:30px;

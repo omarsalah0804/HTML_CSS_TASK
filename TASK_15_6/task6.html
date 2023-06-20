@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>omar salah task6</title>
+    <style>
+      .container {
+        max-width: 400px;
+        margin: 0;
+        padding: 20px;
+        border: 2px solid black;
+      }
+
+      label {
+        display: inline-block;
+      }
+
+      input[type="text"],
+      select {
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registration Form!</h1>
+
+    <div class="container">
+      <h2 style="text-align: center">Personal details</h2>
+      <hr />
+      <br />
+
+      <form>
+        <label for="name">First name:</label>
+        <input type="text" id="name" name="name" /><br /><br />
+
+        <label for="department">Last name:</label>
+        <input type="text" id="department" name="department" /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" /><br /><br />
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="gender-male" name="gender" value="male" />
+        <label for="gender-male">Male</label>
+        <input type="radio" id="gender-female" name="gender" value="female" />
+        <label for="gender-female">Female</label><br /><br />
+
+        <label for="city">City:</label>
+        <select name="city" id="city">
+          <option value="Aqaba">Aqaba</option>
+          <option value="Amman">Amman</option>
+        </select>
+        <br /><br />
+
+        <input type="submit" value="Sign up" />
+      </form>
+    </div>
+  </body>
+</html>
