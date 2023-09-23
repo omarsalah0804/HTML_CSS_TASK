@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./html.png" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <div class="navbar">
+      <div class="nav">
+        <div class="nav__item">
+          <a
+            class="active link"
+            href="http://127.0.0.1:5501/HTML_CSS_TASK/index.html"
+          >
+            <svg
+              class="icon"
+              viewBox="0 0 32 32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polygon
+                points="5.902 27.201 3.655 2 28.345 2 26.095 27.197 15.985 30 5.902 27.201"
+                style="fill: #e44f26"
+              />
+              <polygon
+                points="16 27.858 24.17 25.593 26.092 4.061 16 4.061 16 27.858"
+                style="fill: #f1662a"
+              />
+              <polygon
+                points="16 13.407 11.91 13.407 11.628 10.242 16 10.242 16 7.151 15.989 7.151 8.25 7.151 8.324 7.981 9.083 16.498 16 16.498 16 13.407"
+                style="fill: #ebebeb"
+              />
+              <polygon
+                points="16 21.434 15.986 21.438 12.544 20.509 12.324 18.044 10.651 18.044 9.221 18.044 9.654 22.896 15.986 24.654 16 24.65 16 21.434"
+                style="fill: #ebebeb"
+              />
+              <polygon
+                points="15.989 13.407 15.989 16.498 19.795 16.498 19.437 20.507 15.989 21.437 15.989 24.653 22.326 22.896 22.372 22.374 23.098 14.237 23.174 13.407 22.341 13.407 15.989 13.407"
+                style="fill: #fff"
+              />
+              <polygon
+                points="15.989 7.151 15.989 9.071 15.989 10.235 15.989 10.242 23.445 10.242 23.445 10.242 23.455 10.242 23.517 9.548 23.658 7.981 23.732 7.151 15.989 7.151"
+                style="fill: #fff"
+              />
+            </svg>
+            <span style="font-size: 12px" class="text" data-title="HTML/CSS"
+              >One</span
+            >
+          </a>
+        </div>
+
+        <div class="nav__item">
+          <a class="link">
+            <svg class="icon" viewBox="0 0 24 24">
+              <path
+                fill="#000000"
+                d="M6,2A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2H6M6,4H13V9H18V20H6V4M8,12V14H16V12H8M8,16V18H13V16H8Z"
+              />
+            </svg>
+            <span class="text" data-title="Two">Two</span>
+          </a>
+        </div>
+
+        <div class="nav__item">
+          <a class="link">
+            <svg class="icon" viewBox="0 0 24 24">
+              <path
+                fill="#000000"
+                d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,6A2,2 0 0,0 10,8A2,2 0 0,0 12,10A2,2 0 0,0 14,8A2,2 0 0,0 12,6M12,13C14.67,13 20,14.33 20,17V20H4V17C4,14.33 9.33,13 12,13M12,14.9C9.03,14.9 5.9,16.36 5.9,17V18.1H18.1V17C18.1,16.36 14.97,14.9 12,14.9Z"
+              />
+            </svg>
+            <span class="text" data-title="Three">Three</span>
+          </a>
+        </div>
+
+        <div class="nav__item">
+          <a class="link">
+            <svg class="icon" viewBox="0 0 24 24">
+              <path
+                fill="#000000"
+                d="M12,18.54L19.37,12.8L21,14.07L12,21.07L3,14.07L4.62,12.81L12,18.54M12,16L3,9L12,2L21,9L12,16M12,4.53L6.26,9L12,13.47L17.74,9L12,4.53Z"
+              />
+            </svg>
+            <span class="text" data-title="Four">Four</span>
+          </a>
+        </div>
+
+        <div class="nav__item">
+          <a class="link">
+            <svg class="icon" viewBox="0 0 24 24">
+              <path
+                fill="#000000"
+                d="M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10M10,22C9.75,22 9.54,21.82 9.5,21.58L9.13,18.93C8.5,18.68 7.96,18.34 7.44,17.94L4.95,18.95C4.73,19.03 4.46,18.95 4.34,18.73L2.34,15.27C2.21,15.05 2.27,14.78 2.46,14.63L4.57,12.97L4.5,12L4.57,11L2.46,9.37C2.27,9.22 2.21,8.95 2.34,8.73L4.34,5.27C4.46,5.05 4.73,4.96 4.95,5.05L7.44,6.05C7.96,5.66 8.5,5.32 9.13,5.07L9.5,2.42C9.54,2.18 9.75,2 10,2H14C14.25,2 14.46,2.18 14.5,2.42L14.87,5.07C15.5,5.32 16.04,5.66 16.56,6.05L19.05,5.05C19.27,4.96 19.54,5.05 19.66,5.27L21.66,8.73C21.79,8.95 21.73,9.22 21.54,9.37L19.43,11L19.5,12L19.43,13L21.54,14.63C21.73,14.78 21.79,15.05 21.66,15.27L19.66,18.73C19.54,18.95 19.27,19.04 19.05,18.95L16.56,17.95C16.04,18.34 15.5,18.68 14.87,18.93L14.5,21.58C14.46,21.82 14.25,22 14,22H10M11.25,4L10.88,6.61C9.68,6.86 8.62,7.5 7.85,8.39L5.44,7.35L4.69,8.65L6.8,10.2C6.4,11.37 6.4,12.64 6.8,13.8L4.68,15.36L5.43,16.66L7.86,15.62C8.63,16.5 9.68,17.14 10.87,17.38L11.24,20H12.76L13.13,17.39C14.32,17.14 15.37,16.5 16.14,15.62L18.57,16.66L19.32,15.36L17.2,13.81C17.6,12.64 17.6,11.37 17.2,10.2L19.31,8.65L18.56,7.35L16.15,8.39C15.38,7.5 14.32,6.86 13.12,6.62L12.75,4H11.25Z"
+              />
+            </svg>
+            <span class="text" data-title="Five">Five</span>
+          </a>
+        </div>
+
+        <div class="nav__active-indicator"></div>
+      </div>
+    </div>
+
+    <!-- nav  -->
+
+    <div class="taskContainer">
+      <div class="DateSection">
+        <input type="checkbox" name="d10m7" id="d10m7ck" />
+        <label for="d10m7ck" class="label">
+          <div class="date">"2023/06/14"</div>
+          <div class="icon">▼</div>
+        </label>
+        <div class="tasks">
+          <a href="./TASK_14_6/task1.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.1</span></div>
+            </div>
+          </a>
+          <a href="./TASK_14_6/task2.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.2</span></div>
+            </div>
+          </a>
+          <a href="./TASK_14_6/task3.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.3</span></div>
+            </div>
+          </a>
+          <a href="./TASK_14_6/task4.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.4</span></div>
+            </div>
+          </a>
+          <a href="./TASK_14_6/tesk5.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.5</span></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="taskContainer">
+      <div class="DateSection">
+        <input type="checkbox" name="d10m7" id="d10m7ck" />
+        <label for="d10m7ck" class="label">
+          <div class="date">"2023/06/15"</div>
+          <div class="icon">▼</div>
+        </label>
+        <div class="tasks">
+          <a href="./TASK_15_6/task1.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.1</span></div>
+            </div>
+          </a>
+          <a href="./TASK_15_6/task2.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.2</span></div>
+            </div>
+          </a>
+          <a href="./TASK_15_6/task3.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.3</span></div>
+            </div>
+          </a>
+          <a href="./TASK_15_6/task4.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.4</span></div>
+            </div>
+          </a>
+          <a href="./TASK_15_6/task5.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.5</span></div>
+            </div>
+          </a>
+          <a href="./TASK_15_6/task6.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.6</span></div>
+            </div>
+          </a>
+          <a href="./TASK_15_6/task7.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.7</span></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="taskContainer">
+      <div class="DateSection">
+        <input type="checkbox" name="d10m7" id="d10m7ck" />
+        <label for="d10m7ck" class="label">
+          <div class="date">"2023/06/18"</div>
+          <div class="icon">▼</div>
+        </label>
+        <div class="tasks">
+          <a href="./TASK_18_6/task1.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.1</span></div>
+            </div>
+          </a>
+          <a href="./TASK_18_6/task2.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.2</span></div>
+            </div>
+          </a>
+          <a href="./TASK_18_6/task3.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.3</span></div>
+            </div>
+          </a>
+          <a href="./TASK_18_6/task4.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.4</span></div>
+            </div>
+          </a>
+          <a href="./TASK_18_6/task5.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.5</span></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="taskContainer">
+      <div class="DateSection">
+        <input type="checkbox" name="d10m7" id="d10m7ck" />
+        <label for="d10m7ck" class="label">
+          <div class="date">"2023/06/19"</div>
+          <div class="icon">▼</div>
+        </label>
+        <div class="tasks">
+          <a href="./TASK_19_6/task1.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.1</span></div>
+            </div>
+          </a>
+          <a href="./TASK_19_6/tsak2.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.2</span></div>
+            </div>
+          </a>
+          <a href="./TASK_19_6/task3.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.3</span></div>
+            </div>
+          </a>
+          <a href="./TASK_19_6/task4.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.4</span></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="taskContainer">
+      <div class="DateSection">
+        <input type="checkbox" name="d10m7" id="d10m7ck" />
+        <label for="d10m7ck" class="label">
+          <div class="date">"2023/06/20"</div>
+          <div class="icon">▼</div>
+        </label>
+        <div class="tasks">
+          <a href="./TASK_20_6/task1.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.1</span></div>
+            </div>
+          </a>
+          <a href="./TASK_20_6/task2.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.2</span></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="taskContainer">
+      <div class="DateSection">
+        <input type="checkbox" name="d10m7" id="d10m7ck" />
+        <label for="d10m7ck" class="label">
+          <div class="date">"2023/06/21"</div>
+          <div class="icon">▼</div>
+        </label>
+        <div class="tasks">
+          <a href="./TASK_21_6/task1.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.1</span></div>
+            </div>
+          </a>
+          <a href="./TASK_21_6/task2.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.2</span></div>
+            </div>
+          </a>
+          <a href="./TASK_21_6/task3.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.3</span></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="taskContainer">
+      <div class="DateSection">
+        <input type="checkbox" name="d10m7" id="d10m7ck" />
+        <label for="d10m7ck" class="label">
+          <div class="date">"2023/06/25"</div>
+          <div class="icon">▼</div>
+        </label>
+        <div class="tasks">
+          <a href="./TASK_25_6/task1.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.1</span></div>
+            </div>
+          </a>
+          <a href="./TASK_25_6/task2.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.2</span></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="taskContainer">
+      <div class="DateSection">
+        <input type="checkbox" name="d10m7" id="d10m7ck" />
+        <label for="d10m7ck" class="label">
+          <div class="date">"2023/06/26"</div>
+          <div class="icon">▼</div>
+        </label>
+        <div class="tasks">
+          <a href="./TASK_26_6/task1.html" target="_blank">
+            <div class="task">
+              <div class="name"><span>Task no.1</span></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -4,8 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .Pearnt {
+            display: grid;
+            grid-template-areas: 'first second';
+            grid-template-columns: repeat(2,auto);
+        }
+        div div{
+            font-size:50px;
+            color: white;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+    
+        .First{
+            grid-area: first;
+            height: 100dvh;
+            background-color: #ffa500;
+        }
+
+        .second{
+            grid-area:second;
+            background-color: #0000ff;
+            
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="Pearnt">
+        <div class="First">First Part</div>
+        <div class="second">Second Part</div>
+    </div>
 </body>
 </html>
