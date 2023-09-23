@@ -62,7 +62,7 @@ body {
     var(--active-indicator-width) + var(--active-indicator-extra-length) * 2
   );
   height: calc(100% - var(--menu-padding-vertical));
-  background: #f7c329;
+  /* background: #f7c329; */
   z-index: 10;
   border-radius: var(--active-indicator-width);
   transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
